@@ -1,0 +1,7 @@
+.hero_slider .card img {
+  max-width: 100%;
+  min-height: 580px;
+}
+/* Only Mobile */
+@media only screen and (max-width: 767px) {
+}

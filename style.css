@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.section_01 {
+  background-image: url(images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 1122px;
+  overflow: hidden;
+}
+nav.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+.menus {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.menus li {
+  list-style: none;
+  font-size: 16px;
+  line-height: 1.25em;
+  color: #ffffff;
+}
+
+.button {
+  padding: 12px 24px;
+  background-color: #a8fe3b;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.2222222222222223em;
+  text-decoration: none;
+}
+.hero_text {
+  max-width: 884px;
+  margin: 0 auto;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.hero_text h1 {
+  font-size: 64px;
+  color: #ffffff;
+  line-height: 1.15625em;
+  font-weight: 600;
+  text-align: center;
+}
+.hero_text h1 span {
+  color: #a8fe3b;
+}
+.hero_text p {
+  font-size: 20px;
+  line-height: 1.6em;
+  font-weight: 400;
+  color: #bfbfbf;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+img.line_animation {
+  position: absolute;
+  right: -157.79px;
+  bottom: 17.95px;
+}
+.btn_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.started_btn {
+  padding: 14px 32px;
+  background-color: #a8fe3b;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7777777777777777em;
+  text-decoration: none;
+  max-width: 203px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.view_btn {
+  padding: 14px 32px;
+  background-color: #a8fe3b;
+  color: #111111;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7777777777777777em;
+  text-decoration: none;
+  max-width: 211px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.demo_btn {
+  padding: 14px 32px;
+  background-color: transparent;
+  border: 1px solid #a8fe3b;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.7777777777777777em;
+  text-decoration: none;
+  max-width: 192px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  box-shadow: rgba(168, 254, 59, 0.2) 0px 9px 20px;
+}
+.slider_wrapper {
+  min-height: 580px;
+  position: relative;
+  border: 1px solid red;
+}
